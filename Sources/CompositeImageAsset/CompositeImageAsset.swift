@@ -10,4 +10,7 @@ public protocol CompositeImageAssetOptions: CompositeAssetOptions {
 
   /// Specifies the common scale factor used in all images that make up the asset.
   var scaleFactor: Float { get }
+
+  ///
+  init(name: String, scaleFactor: Float)
 }
