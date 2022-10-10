@@ -1,4 +1,4 @@
-import Asset
+import CompositeAsset
 
 /// Refines the CompositeAsset protocol to require an Options associated type that is image
 /// asset-specific.
